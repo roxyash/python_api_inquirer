@@ -1,0 +1,11 @@
+Installation guide:
+	cd pollMaker/
+	pip install -r requrements.txt
+	cd pollMaker/
+	python manage.py makemigrations
+	python manage.py migrate
+	python manage.py createsuperuser //Create user
+	python manage.py runserver
+
+
+
